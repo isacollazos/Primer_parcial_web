@@ -12,8 +12,7 @@ body{
 
 nav .wrapper{
   display: flex;
-  position: fixed;  
-  padding: 0.3rem 5rem;
+  padding: 0.3rem 10rem;
   justify-content: space-between;
   align-items: center;
   gap: 0.3rem;
@@ -489,12 +488,16 @@ main .feed .publicaciones .post:hover{
 /*Parte derecha de la pagina*/
 
 .derecha{
+  color: #000;
+  font-size: 20px;
+  margin-bottom: 20px;
   background: #fff;
+  width: 100%;
+  height: 18%;
   border-radius: 0.8rem;
-  height: 62vh;
 }
 
-.derecha .recomendaciones{
+.derecha .recomendaciones h3{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -507,13 +510,36 @@ main .feed .publicaciones .post:hover{
   top: 3%;
 }
 
+.derecha .perfils{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
 
-.derecha .recomendaciones img{
+.derecha .perfils .informacion{
+  display: flex;
+  align-items: center;
+}
+
+.foto_perfil{
   width: 3.2rem;
   height: 3.2rem;
   border-radius: 50%;
   cursor: pointer;
 
+}
+
+.nombre{
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.info{
+  font-size: 14px;
+  color: #666;
 }
 
 .derecha .recomendaciones h5{

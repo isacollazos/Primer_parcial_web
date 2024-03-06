@@ -106,14 +106,14 @@
 
             <div class="trabajos">
                 <div class="recientes">
-                    <h5>Recientes</h5>
+                    <h5 class="nombre">Recientes</h5 class="nombre">
                     <div class="primer">
                         <i class="fa-solid fa-users"></i>
                         <h6>Trabajo remoto/Home office</h6>
                     </div>
                 </div>
                 <div class="grupos">
-                    <h5>Grupos</h5>
+                    <h5 class="nombre">Grupos</h5 class="nombre">
                     <div class="segundo">
                         <i class="fa-solid fa-users"></i>
                         <h6>Trabajo remoto/Home office</h6>
@@ -146,15 +146,15 @@
                 <div class="publicaciones">
                     <div class="post">
                         <i class="fa-regular fa-image"></i>
-                        <h5>Contenido Multimedia</h5>
+                        <h5 class="nombre">Contenido Multimedia</h5 class="nombre">
                     </div>
                     <div class="post">
                         <i class="fa-solid fa-calendar"></i></i>
-                        <h5>Evento</h5>
+                        <h5 class="nombre">Evento</h5 class="nombre">
                     </div>
                     <div class="post">
                         <i class="fa-solid fa-keyboard"></i></i>
-                        <h5>Escribir artículo</h5>
+                        <h5 class="nombre">Escribir artículo</h5 class="nombre">
                     </div>
                 </div>
             </div>
@@ -170,7 +170,7 @@
                     </div>
                 </div>
                 <div class="post-body">
-                    <p>¡Docente #UAO, con presencia internacional!
+                    <p class="info">¡Docente #UAO, con presencia internacional!
                         Ismael Cardozo Rivera, profesor y director del programa de Narrativas y Entretenimiento Digital,
                         NED, hace parte del comité científico de dos congresos internacionales sobre comunicación
                         digital y producción audiovisual.
@@ -179,7 +179,7 @@
                             href="https://www.uao.edu.co/comunicacion-y-ciencias-sociales/docente-uao-con-presencia-internacional/">https://lnkd.in/e6zfFMVU</a>
                         <br>
                         #OrgulloUAO #NED #Comunicación #ComitéCientífico
-                    </p>
+                    </p class="info">
                     <div class="post-image">
                         <img src="assets/1708356521651.jpeg" alt="Post Image">
                     </div>
@@ -224,11 +224,11 @@
                     </div>
                 </div>
                 <div class="post-body">
-                    <p>Descubre el mundo estudiando en nuestros destinos más demandados🤩✈️
+                    <p class="info">Descubre el mundo estudiando en nuestros destinos más demandados🤩✈️
 
                         ¡Aprovecha estas super promos!🎉 no aplaces más tus sueños y empieza ahora😎
                         Comenta "MARZO" para agendarte una asesoría gratis 👇🏼<br>#promociones #descuentos
-                        #estudiarenelexterior #estudiaringles #viajarporelmundo</p>
+                        #estudiarenelexterior #estudiaringles #viajarporelmundo</p class="info">
                     <div class="post-image">
                         <img src="assets/1709645200650.jpeg" alt="Post Image">
                     </div>
@@ -271,12 +271,12 @@
                     </div>
                 </div>
                 <div class="post-body">
-                    <p>In his upcoming keynote, "The Revolution in Scientific Discovery," Chris Bishop, Technical Fellow
+                    <p class="info">In his upcoming keynote, "The Revolution in Scientific Discovery," Chris Bishop, Technical Fellow
                         and Director, Microsoft Research AI4Science, will share AI4Science's vision for leveraging AI to
                         model and predict natural phenomena. Register now for Microsoft Research Forum: Episode 2 on
                         March 5 at 9:00 AM PT to learn more about the real-world progress being made by the team.
                         <a href="https://msft.it/6044cRFU4">https://msft.it/6044cRFU4</a>
-                    </p>
+                    </p class="info">
                     <div class="post-image">
                         <img src="assets/1708995122281.jpeg" alt="Post Image">
                     </div>
@@ -313,37 +313,47 @@
             <div class="recomendaciones">
                 <h3>Añade a tu perfil</h3>
                 <div class="perfils">
-                    <img src="assets/brais.jpeg" alt="">
-                    <h5>Brais Moure</h5>
-                    <h6>Freelance full-stack Dev</h6>
+                    <div class="informacion">
+                        <img src="assets/brais.jpeg" class="foto_perfil">
+                        <div>
+                            <h5 class="nombre">Brais Moure</h5 class="nombre">
+                            <p class="info">Freelance full-stack Dev</p class="info">
+
+                        </div>
+                    </div>
                     <div class="seguir">
-                    <button class="button">+ Seguir</button>
+                        <button class="button">+ Seguir</button>
                     </div>   
                 </div>
                 <div class="perfils">
-                <img src="assets/oscar.jpeg" alt="">
-                <div>
-                    <h5>Oscar (gndx) Barajas</h5>
-                    <p >Learning Engineer at Platzi | Experto en JavaScript</p>
+                <div class="informacion">
+                    <img src="assets/oscar.jpeg" class="foto_perfil">
+                    <div>
+                        <h5 class="nombre">Oscar (gndx) Barajas</h5 class="nombre">
+                        <p class="info" >Learning Engineer at Platzi | Experto en JavaScript</p class="info">
+                    </div>
                 </div>
                 <div class="seguir">
                     <button class="button">+ Seguir</button>
-                </div>   
-            </div>
-            <div class="perfils">
-                <img src="assets/jorge.jpeg" alt="">
-                <div>
-                    <h5>Jorge Baumann</h5>
-                    <p>FrontEnd Engineer | Creador de contenido</p>
                 </div>
-                <div class="seguir">
-                <button class="button">+ Seguir</button>
-                </div>   
+                <div class="perfils">
+                    <img src="assets/jorge.jpeg" class="foto_perfil">
+                    <div>
+                        <h5 class="nombre">Jorge Baumann</h5 class="nombre">
+                        <p class="info">FrontEnd Engineer | Creador de contenido</p class="info">
+                    </div>
+                    <div class="seguir">
+                        <button class="button">+ Seguir</button>
+                    </div>   
+                </div>
+                <div class="show_more">
+                    <h5 class="nombre">Ver más</h5 class="nombre">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>  
+
             </div>
-            <div class="show_more">
-                <h5>Ver más</h5>
-                <i class="fa-solid fa-angle-down"></i>
-            </div>
+            
+            
             </div>    
                 
             </div>
